@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "concurrently \"npm run json-server\" \"next dev --turbopack\"",
     "build": "next build",
-    "start": "npm run json-server",
+    "start": "next start",
     "lint": "next lint",
     "json-server":"json-server --watch db.json --port 3004"
   },
